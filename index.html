@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroConnect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="/assets/stylesheets/basic-stylesheet.css" rel="stylesheet">
+    <link href="/assets/stylesheets/index-css.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">AgroConnect</div>
+        <div class="navbar-links">
+            <a href="./index.html">Home</a>
+            <a href="/assets/webpages/tour-book.html">Tours</a>
+            <a href="/assets/webpages/donation.html">Donations</a>
+            <a href="/assets/webpages/investment.html">Investments</a>
+            <a href="./index.html">Contact Us</a>
+        </div>
+        <div class="navbar-buttons">
+            <a href="/assets/webpages/login.html" class="login-button">Login</a>
+            <a href="/assets/webpages/signup.html" class="signup-button">Sign Up</a>
+        </div>
+    </div>
+    
+    <div class="content-section">
+        <h1>AgroConnect</h1>
+        <p>Discover immersive nature tours, stay with villagers, and invest in sustainable agricultural lands. Connect, explore, and contribute to the future of farming while enjoying an authentic village experience</p>
+        <a href="#" class="read-more" target="_blank">Explore Us</a>
+    </div>
+    <div class="about-us-section">
+        <h1>About AgroConnect</h1>
+        <p>
+            "AgroConnect bridges the gap between urban and rural life, offering immersive experiences in village living while empowering communities through sustainable tourism and crowd investing. By connecting urban dwellers with the heart of India's agriculture, we not only protect the backbone of our nation but also foster a sustainable future for generations to come."
+        </p>
+    </div>
+    <div class="tour-section">
+        <div class="tour-background">
+            <div class="tour-overlay"></div> <!-- Overlay div added here -->
+            <div class="tour-content">
+                <h1>Explore Our Tours</h1>
+                <p>Join us for an unforgettable journey through nature. Experience the beauty of the countryside and connect with local farmers.</p>
+                <a href="/assets/webpages/tour-book.html" class="prebook-button">Pre-Book Now</a>
+            </div>
+        </div>
+    </div>
+    
+        <div class="investment-section">
+            <div class="investment-info" style="width: 30%;">
+                <h2>"Harvest Your Future: Invest in Agriculture Today!"</h2>
+                <p>Join our crowd investing platform and support sustainable agricultural lands. Empower local farmers while sharing in the profits from their produce. Be a part of a thriving future—invest in nature today!</p>
+            </div>
+            <div class="investment-image" style="width: 70%;">
+                <a href="/assets/webpages/investment.html" class="view-more">View More</a>
+            </div>
+        </div>
+    </div>
+    <div class="donation-container">
+        <h2 class="donation-title">"Save the Backbone of India: Donate to Support Sustainable Agriculture!"</h2>
+        <p>"Help revive the heart of India by donating directly to farmers. Your support empowers them to restore their lands and livelihoods, <br>fostering sustainable agriculture for future generations. Together, we can create lasting change and uplift communities!"</p>
+        <p>Every little bit counts! your generosity cultivates hope!</p>
+        <a href="/assets/webpages/donation.html" class="donate-button">Donate</a>
+    </div>
+    <div class="about-us-container">
+        <h2>Contact Us</h2>
+        <p>We are dedicated to making a positive impact by empowering local farmers and reviving the lands that are the backbone of India. Our mission is to connect urban dwellers with the essence of rural life, fostering a deeper appreciation for sustainable agriculture and the farmers who cultivate our food.</p>
+        <p>
+            Through our initiatives, we offer crowd investing and direct donations to support farmers, helping restore their livelihoods and promote sustainable practices. Join us in transforming lives and nurturing the future of agriculture!
+        </p>
+       
+    </div> 
+<footer>
+    <p>&copy; 2024 AgroConnect. All rights reserved.</p>
+</footer>
+<script>
+const images = [
+    '/assets/images/index/tour1.jpg',
+    '/assets/images/index/tour2.jpg',
+    '/assets/images/index/tour3.jpg'
+];
+
+let currentImageIndex = 0;
+
+function changeBackground() {
+    const tourBackground = document.querySelector('.tour-background');
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+    tourBackground.style.backgroundImage = `url(${images[currentImageIndex]})`;
+}
+
+document.querySelector('.tour-background').style.backgroundImage = `url(${images[currentImageIndex]})`;
+setInterval(changeBackground, 5000);
+</script>
+
+</body>  
+</html>

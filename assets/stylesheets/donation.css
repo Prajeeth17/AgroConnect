@@ -1,0 +1,71 @@
+body {
+    background: url('/assets/images/donation/donationimage.jpg');
+background-size: cover;
+font-family: Arial, sans-serif;
+margin: 0;
+}
+
+.donation-container {
+max-width: 800px;
+width: 100%;
+margin: 0 auto;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.9);
+border-radius: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin-top: 80px; 
+margin-bottom: 50px;
+}
+
+.donation-title {
+    text-align: center;
+    color: #30565c;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.farmer-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #e0ecf2;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.farmer-image {
+    flex: 0 0 150px;
+    margin-right: 20px;
+}
+
+.farmer-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.funding-amount {
+    font-size: 16px;
+    font-weight: bold;
+    color: #50801d;
+    margin-bottom: 10px;
+}
+
+.btn-donate {
+    background-color: #50801d;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn-donate:hover {
+    background-color: #30565c;
+}
+
+.bold-text {
+    font-weight: bold;
+}

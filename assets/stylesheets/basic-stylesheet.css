@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #182c2d;
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for modern depth */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: #e0ecf2;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.navbar a:hover {
+    background-color: #4b737d;
+    border-radius: 5px; /* Soft rounding */
+}
+
+.navbar-buttons a {
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 20px; /* More pronounced rounded buttons */
+    transition: background-color 0.3s ease;
+}
+
+.navbar .logo{
+    color:#83c13b;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.login-button {
+    background-color: #83c13b;
+    color: white;
+}
+
+.signup-button {
+    background-color: #50801d;
+    color: white;
+}
+
+.login-button:hover, .signup-button:hover {
+    background-color: #406315;
+}
+
+footer {
+    background-color: #406315;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }

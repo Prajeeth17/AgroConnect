@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0ecf2; 
+    color: #e0ecf2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #68a12a;
+}
+
+.header p {
+    font-size: 18px;
+    color: #8fa8b6;
+}
+
+.select-city-container {
+    margin: 20px 0;
+}
+
+.select-city {
+    padding: 10px;
+    border: 1px solid #83c13b;
+    border-radius: 5px;
+    background-color: #4b737d; 
+    color: #e0ecf2;
+    font-size: 16px;
+    width: 250px;
+}
+
+.places-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.place-card {
+    background-color: #2b4645; 
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.place-card:hover {
+    transform: scale(1.05);
+}
+
+.place-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.place-card-content {
+    padding: 15px;
+}
+
+.place-card-content h2 {
+    font-size: 22px;
+    color: #83c13b; 
+}
+
+.place-card-content p {
+    font-size: 14px;
+    color: #e0ecf2; 
+}
+
+.crowdsource-section {
+    margin-top: 40px;
+    text-align: center;
+    color: #5e871b; 
+}
+
+.crowdsource-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.crowdsource-section p {
+    font-size: 16px;
+}

@@ -1,0 +1,70 @@
+body {
+    background: url('/assets/images/log-bg/backgroundimage.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full height for centering */
+    display: flex; /* Enable flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px; /* Padding for the container */
+    border-radius: 20px; /* Increased radius for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.signup-title {
+    text-align: center;
+    color: #68a12a; /* Primary color */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-control {
+    margin: 10px 0; /* Space between input fields */
+    border-radius: 15px; /* Adding radius for input fields */
+}
+
+.btn-custom {
+    background-color: #68a12a; /* Primary color */
+    color: white;
+    border-radius: 15px; /* Adding radius for button */
+}
+
+.btn-custom:hover {
+    background-color: #4b737d; /* Hover color */
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-text a {
+    color: #68a12a; /* Primary color */
+    text-decoration: none;
+}
+
+/* Custom form icons */
+.form-group label {
+    font-weight: bold;
+    color: #182c2d; /* Dark color for labels */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    background: rgba(255, 255, 255, 0.9); /* More opaque input fields */
+    border: 2px solid #30565c; /* Border color */
+    border-radius: 15px; /* Adding radius for input fields */
+    padding: 10px;
+}
+
+.form-group input:focus {
+    border-color: #83c13b; /* Focus border color */
+}
