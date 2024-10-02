@@ -18,7 +18,7 @@
   
   .hero {
     position: relative;
-    background-image: url('/assets/images/prebooking/bg-image.jpg');
+    background-image: url('assets/images/prebooking/bg-image.jpg');
     background-size: cover;
     background-position: center;
     height: 680px;
