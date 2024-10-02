@@ -122,7 +122,7 @@ body {
 
 .investment-image {
     flex: 1.5;
-    background-image: url(./../images/index/tour3.jpg);
+    background-image: url(./assets/images/index/tour3.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -149,7 +149,7 @@ body {
 
 .donation-container {
     position: relative;
-    background-image: url('./../images/index/donate-img.jpg');
+    background-image: url('./assets/images/index/donate-img.jpg');
     background-size: cover;
     background-position: center;
     padding: 60px 30px;
@@ -202,33 +202,6 @@ body {
     background-color: #30565c;
 }
 
-.about-us-container {
-    padding: 60px 30px;
-    background-color:#e0ecf2;
-    text-align: center;
-    color: #182c2d;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-radius: 10px; /* Rounded corners for a modern touch */
-    margin: 30px; /* Center the container */
-}
-
-.about-us-container h2 {
-    margin-bottom: 30px; /* Add space below the title */
-    text-decoration: underline; /* Underline the title */
-    font-size: 36px; /* Larger font size for emphasis */
-    color: #68a12a; /* Modern green color */
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-
-.about-us-container p {
-    font-size: 18px;
-    line-height: 1.8; 
-    color: #333;
-    max-width: 900px;
-    margin: 0 auto 20px auto; 
-}
 
 .tour-section {
     position: relative;
@@ -291,3 +264,82 @@ body {
 .prebook-button:hover {
     background-color: #406315;
 }}
+
+.contact-us-container {
+    padding: 60px 30px;
+    background-color: #e0ecf2;
+    color: #182c2d;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.contact-us-container h2, .contact-us-container h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #83c13b;
+    text-decoration: underline;
+    font-family: "Roboto Slab", serif;
+}
+
+.contact-us-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.contact-item i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #FF5733;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.feedback-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.feedback-form input, .feedback-form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.feedback-form button {
+    padding: 10px 20px;
+    background-color: #83c13b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.feedback-form button:hover {
+    background-color: #406315;
+}
+
