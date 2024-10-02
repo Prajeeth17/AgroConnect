@@ -122,7 +122,7 @@ body {
 
 .investment-image {
     flex: 1.5;
-    background-image: url(./assets/images/index/tour3.jpg);
+    background-image: url(./../images/index/tour3.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -149,7 +149,7 @@ body {
 
 .donation-container {
     position: relative;
-    background-image: url('./assets/images/index/donate-img.jpg');
+    background-image: url('./../images/index/donate-img.jpg');
     background-size: cover;
     background-position: center;
     padding: 60px 30px;
