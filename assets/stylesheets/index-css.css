@@ -6,7 +6,7 @@ body {
 .content-section {
     position: relative;
     height: 700px;
-    background-image: url('./assets/images/index/front-img.jpg');
+    background-image: url('/images/index/front-img.jpg');
     background-size: cover;
     background-position: center;
     color: white;
