@@ -7,8 +7,6 @@
 3. [Technologies Used](#technologies-used)
 4. [Future Development](#future-development)
 5. [Installation](#installation)
-6. [Contributing](#contributing)
-7. [License](#license)
 
 ## Project Overview
 AgroConnect is a platform designed to bridge the gap between urban dwellers and rural farmers through immersive rural tourism experiences and crowdfunding initiatives. Our mission is to support local agriculture by enabling tourists to connect with farmers while providing financial assistance to those in need.
@@ -27,7 +25,6 @@ AgroConnect is a platform designed to bridge the gap between urban dwellers and 
 
 ## Future Development
 Future iterations of AgroConnect will expand functionality by incorporating:
-- *Blockchain Technology*: For secure investment and funding transactions.
 - *Mobile Application*: To enhance user experience and facilitate bookings.
 - *Farmer Registration System*: Allowing farmers to register for participation via our app or local post offices.
 
